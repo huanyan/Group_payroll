@@ -49,6 +49,7 @@ for key in email_dic:
     sender = str(senderMail)
     receivers = str(email_dic[key])
     # 设置email信息
+
     message = MIMEMultipart()
     message['Subject'] = '工资条'
     message['From'] = sender
